@@ -1,0 +1,5 @@
+steps:
+- name: 'ubuntu'
+  args: ['echo', 'hello $_BASE_BRANCH']
+options:
+    substitution_option: 'ALLOW_LOOSE'
